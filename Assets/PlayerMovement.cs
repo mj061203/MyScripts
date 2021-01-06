@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
             transform.Translate(0.3f,0,0);
 
         } if ( Input.GetKeyDown(KeyCode.Space) && player.position ){
-            
+            //HELLO
             r3D.AddForce(transform.up * 480);
 
         }
